@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+
+        nav {
+          background-color: #333;
+          padding: 10px;
+        }
+      
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+        }
+      
+        li {
+          margin: 0 10px;
+        }
+      
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      
+        a:hover {
+          text-decoration: underline;
+        }
+
+        h1 {
+        font-size: 4rem;
+        color: #2e3192;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-top: 3rem;
+        }
+
+        h3 {
+        font-size: 2rem;
+        color: #2e3192;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-top: 3rem;
+        }
+      </style>
+      <link rel="icon" href="WhatsApp Image 2023-05-14 at 4.15.09 PM.jpeg">
+</head>
+<body bgcolor="C1DAEA">
+   <!-- el justify es para justificar como su nombre lo dice -->
+   
+    <nav>
+        <ul>
+          <li><a href="Inicio.html">Inicio</a></li>
+          <li><a href="Quienes Somos.html">Quienes somos</a></li>
+          <li><a href="Servicio al Cliente.html">Servicio al Cliente</a></li>
+          <li><a href="Contacto.html">Contactanos</a></li>
+          <li><a href="Opciones de Prestamo.html">Prestamos</a></li>
+          <li><a href="Sucursales.html">Sucursales</a></li>
+        </ul>
+      </nav>
+      <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+     }
+     h1 {
+        color: #1d8fb8;
+     }
+     .contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+     }
+     .form-group {
+        margin-bottom: 20px;
+     }
+     .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+     }
+     .form-group input,
+     .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #73a9ad;
+        border-radius: 4px;
+     }
+     .form-group textarea {
+        height: 150px;
+     }
+     .form-group button {
+        padding: 10px 20px;
+        background-color: #f2f2f7;
+        color: #4bb8dc;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+     }
+     .form-group button:hover {
+        background-color: #45a049;
+     }
+  </style>
+</head>
+<body>
+   <!-- el border como su nombre lo dice es para poner un borde -->
+  <h1>Contactanos</h1>
+  <div class="contact-form">
+     <form action="zayasbismario@gamil.com" method="get">
+        <div class="form-group">
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+           <label for="email">Correo electrónico:</label>
+           <input type="email" id="email" name="email" placeholder="Aqui va el Correo" required>
+        </div>
+         <!-- el textarea es para asignar un espacio para que el cliente escriba libremente -->
+          <!-- el label nor sive tambien para poner en nombre a nuestro input -->
+        <div class="form-group">
+           <label for="message">Mensaje:</label>
+           <textarea id="message" name="message" required></textarea>
+        </div>
+         <!-- el input button es para establecer un boton de envio y de reset -->
+        <div class="form-group">
+           <button type="submit">Enviar</button>
+        </div>
+     </form>
+     
+  </div>
+      
+</body>
+</html>
